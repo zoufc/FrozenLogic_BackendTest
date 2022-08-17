@@ -10,20 +10,18 @@
 
 1.  In order to run the application on your computer, you must first install all #NestJs dependencies.
 
-2.  Use a MySQL database in your computer.
+2.  After clonning project,run "cd FrozenLogic_BackendTest"
 
-3.  After clonning project,run "cd FrozenLogic_BackendTest"
+3.  run "npm install" or "npm install --legacy-per-dep".
 
-4.  run "npm install" or "npm install --legacy-per-dep".
+4.  Customize(or create) the .env file at the project root as following:
 
-4.  Customize(or create) the .env file at the project root as following.
-
-    PORT=4000(Port number used by the NestJs REST API)
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=your_password
-    DB_NAME=dbName
-    DB_PORT=3306
+    PORT=4000
+    DB_HOST=mysql-85871-0.cloudclusters.net
+    DB_USER=frozen
+    DB_PASSWORD=frozentest
+    DB_NAME=frozenTest
+    DB_PORT=19596
 
 5.  Run "npm run start:dev" at the project root to start the server.
 
