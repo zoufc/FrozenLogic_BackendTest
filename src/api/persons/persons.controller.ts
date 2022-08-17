@@ -40,8 +40,6 @@ export class PersonsController {
       Logger.verbose('--GETTING ALL PERSONS-- SUCCESS');
       return res.status(HttpStatus.OK).json(allPersons);
     } catch (error) {
-      console.log(error);
-
       return res.status(error.status).json(error);
     }
   }
