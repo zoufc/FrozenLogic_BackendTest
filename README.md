@@ -14,7 +14,7 @@
 
 3.  After clonning project, run "npm install" at the project root.
 
-4.  Create a .env file at the project root as following.
+4.  Customize(or create) the .env file at the project root as following.
 
     PORT=4000
     DB_HOST=localhost
